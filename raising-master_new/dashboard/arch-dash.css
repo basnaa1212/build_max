@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EAE7DD;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+.dashboard-header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+   /* font-size: 1.5rem;*/
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #99775C;
+    color: white;
+    width: 220px;
+    position: fixed;
+    top: 3.8rem;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 1rem 0;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main Content */
+.dashboard-content {
+    margin-left: 240px;
+    padding: 2rem;
+    flex: 1;
+    overflow-y: auto;
+    background-color: white;
+}
+
+.section {
+    margin-bottom: 2rem;
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Logout Button */
+.logout-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}

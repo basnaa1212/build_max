@@ -1,0 +1,76 @@
+/* Basic styles for the form container */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-box {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-header h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #EAE7DD;
+    color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EAE7DD;
+}
+
+/* Switch between Sign In and Sign Up */
+.switch-form-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.switch-form-text span {
+    color: #99775C;
+    cursor: pointer;
+}
+
+.switch-form-text span:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the switchable form container */
+#signup-box {
+    display: none;
+}

@@ -1,0 +1,152 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Architect Profile Section */
+h2 {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.architect-image {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Information Section */
+p {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: 600;
+    color: #222;
+}
+
+
+
+
+/* Booking Form */
+form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form textarea:focus {
+    border: 1px solid #99775C;
+    outline: none;
+}
+
+/* Textarea Styling */
+form textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Submit Button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #99775C;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #99775C;
+}
+
+
+
+.book-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #99775c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.book-button:hover {
+    background-color: #99775C;
+}
+
+
+/* Links (View Plan & View Design) */
+a.book-button {
+    display: inline-block;
+    text-align: center;
+    background-color: #99775c;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+a.book-button:hover {
+    background-color: #fff;
+}
+
+/* Success/Failure Messages */
+h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #e74c3c;
+}
+
+h2.success {
+    color: #2ecc71;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+}

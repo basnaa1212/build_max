@@ -1,0 +1,76 @@
+/* Container for architect cards */
+.architects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Individual Architect Card Styling */
+.architect-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.architect-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Architect Image Styling */
+.architect-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Architect Information Section */
+.architect-info {
+    padding: 15px;
+}
+
+.architect-info h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.architect-info p {
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.architect-info a.book-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #99775c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.architect-info a.book-button:hover {
+    background-color: #99775c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .architect-card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .architects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

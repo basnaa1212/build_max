@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Flex Layout */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    background-color: #EAE7DD; /* Light Grey background for the page */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 250px;
+    background-color: #FFFFFF; /* Teal for sidebar */
+
+    color: #1D3C6A;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .logo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sidebar .logo h2 {
+    font-size: 24px;
+    color: #1D3C6A;
+    font-weight: 700;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a {
+    color: #1D3C6A;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar ul li:hover {
+    background-color: #009688; /* Darker Teal for hover effect */
+}
+
+.sidebar ul li a:hover {
+    color: #FF7043; /* Accent Coral for hover effect on links */
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: 250px;
+    padding: 30px;
+    width: 100%;
+    background-color: #FFFFFF; /* White background for main content */
+}
+
+h2 {
+    font-size: 24px;
+    color: #1D3C6A; /* Dark Grey for headings */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #1D3C6A; /* Light grey for text */
+    margin-bottom: 20px;
+}
+
+/* Buttons Styling */
+button {
+    background-color: #1D3C6A; /* Accent Coral for buttons */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF5722; /* Darker coral on hover */
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Add Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+    
+    .main-content {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}

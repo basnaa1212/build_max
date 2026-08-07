@@ -1,0 +1,93 @@
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #99775C;  /* Color for heading */
+    margin-top: 30px;
+}
+
+/* Profile form container */
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels styling */
+label {
+    font-size: 16px;
+    color: #99775C;  /* Label color */
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Input focus styling */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+    border-color: #99775C;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: #99775C;  /* Button color */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #7a5b46;  /* Darker shade for hover */
+}
+
+/* Paragraph styling for feedback messages */
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    button {
+        padding: 12px 0;
+    }
+}

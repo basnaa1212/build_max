@@ -1,0 +1,93 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Styling */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #99775c;
+}
+
+/* Input Field Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+/* Special Styling for the Photo and Certificate File Inputs */
+input[type="file"] {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+    background-color: #99775c;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7e5c40;
+}
+
+/* Textarea Styling */
+textarea {
+    resize: vertical;
+}
+
+/* Error or Success Message Styling */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* Optional: For the architect photo and certificate upload images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+

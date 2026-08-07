@@ -1,0 +1,49 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #99775C;
+    color: #99775C;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+}
+
+/* Table container to center the table */
+.table-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Responsive table for small screens */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}

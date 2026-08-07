@@ -1,0 +1,80 @@
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile container styling */
+.profile-info {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #99775C;  /* Accent color */
+}
+
+/* Profile heading */
+.profile-info h2 {
+    font-size: 24px;
+    color: #99775C;  /* Title color */
+    margin-bottom: 15px;
+}
+
+/* Profile paragraph styling */
+.profile-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Bold labels for each profile field */
+.profile-info p strong {
+    color: #99775C;  /* Label color */
+}
+
+/* Update button styling */
+.update-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #99775C;  /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #99775C;
+    transition: background-color 0.3s ease;
+}
+
+/* Update button hover effect */
+.update-button:hover {
+    background-color: #7a5b46;  /* Darker shade of the button color on hover */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 600px) {
+    .profile-info {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .profile-info h2 {
+        font-size: 20px;
+    }
+
+    .profile-info p {
+        font-size: 14px;
+    }
+
+    .update-button {
+        width: 100%;
+        padding: 12px 0;
+    }
+}

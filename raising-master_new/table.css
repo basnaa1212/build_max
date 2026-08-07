@@ -1,0 +1,53 @@
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;  /* Collapse borders between table cells */
+    margin: 0;  /* Add margin above and below the table */
+    font-family: Arial, sans-serif;  /* Set the font */
+}
+
+/* Table Header styling */
+th {
+    background-color: #99775C;  /* Green background */
+    color: white;  /* White text color */
+    padding: 12px 15px;  /* Add padding inside table header */
+    text-align: left;  /* Align text to the left */
+}
+
+/* Table Cell styling */
+td {
+    padding: 12px 15px;  /* Add padding inside table cells */
+    border: 1px solid #ddd;  /* Light gray border for table cells */
+    text-align: left;  /* Align text to the left */
+}
+
+/* Table Row hover effect */
+tr:hover {
+    background-color: #f5f5f5;  /* Light gray background on hover */
+}
+
+/* Table border and general styling */
+table, th, td {
+    border: 1px solid #ddd;  /* Light gray border */
+}
+
+/* Alternate row colors for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9;  /* Light gray background for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;  /* White background for odd rows */
+}
+
+/* Make the table responsive */
+@media screen and (max-width: 600px) {
+    table {
+        width: 100%;  /* Make table take full width on smaller screens */
+        font-size: 12px;  /* Reduce font size for smaller devices */
+    }
+
+    th, td {
+        padding: 8px 10px;  /* Smaller padding on smaller screens */
+    }
+}

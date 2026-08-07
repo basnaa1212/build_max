@@ -1,0 +1,84 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Profile container */
+.profile-info {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading for the profile */
+h2 {
+    font-size: 2.2em;
+    color: #99775C; /* Warm earthy tone */
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs for profile details */
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Profile photo */
+.architect-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+/* Update button styling */
+.update-button {
+    display: inline-block;
+    background-color: #99775C; /* Warm earthy tone */
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.update-button:hover {
+    background-color: #785A3D; /* Slightly darker shade */
+}
+
+/* Link styling */
+a {
+    color: #99775C; /* Warm earthy tone */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for images of qualification certificates */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}

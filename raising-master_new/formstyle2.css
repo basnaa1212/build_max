@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Form container styling */
+.form-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form element styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Label styling */
+label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="file"],
+select {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Button styling */
+button[type="Submit"] {
+    padding: 12px 20px;
+    background-color: #997756;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button[type="Submit"]:hover {
+    background-color: #997756;
+}
+
+/* Error message styling */
+h1 {
+    color: #997756;
+    text-align: center;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .form-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    input, select, button {
+        font-size: 0.9em;
+        max-width: 100%;
+    }
+}
